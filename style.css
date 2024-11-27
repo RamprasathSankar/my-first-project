@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2 {
+    background-color: crimson;
+    color: white;
+    padding: 3px 35px;
+    border-radius: 10px 10px 0 0;
+    margin: 0%;
+}
+
+#form {
+    border-radius: 10px 10px 0 0;
+    background-color: antiquewhite;
+}
+
+.inputboxes {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.inputboxes>label {
+    color: rgb(9, 54, 188);
+    padding: 10px 0;
+}
+
+.inputboxes>input {
+    padding: 10px 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 10px 0 0 0;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+small {
+    color: red;
+}
